@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.audio-player {
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+    max-width: 360px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
