@@ -11,7 +11,7 @@
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <!-- Estilos CSS -->
   <link rel="stylesheet" href="css/estilos.css">
-    <!-- Animaciones CSS CDN -->
+  <!-- Animaciones CSS CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" media="screen" href="//cdn.onlineradiobox.com/css/player.popup.min.c4806e65.css">
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  
+
   <section class="reproductor">
     <!--  MDB PLAYER HTML5-->
     <!-- Content -->
@@ -75,13 +75,15 @@
           <div class="card-header text-center" style="font-size: smaller;">IN THE 'MIX</div>
           <div class="card-body text-center">
             <audio autoplay loop controls="controls">
-              <source src="http://freeuk23.listen2myradio.com:7473/;" type="audio/mpeg" />
+              <source src="//shaincast.caster.fm:25049/listen.mp3?authn815d6ab3588dcde5e5479f2d6d4f3df7"
+                type="audio/mpeg" />
             </audio>
           </div>
         </div>
       </div>
     </div>
     <!-- END PLAYER HMTL5 BOOTSTRAP 5-->
+
     <!--  MUSES PLAYER-->
     <div class="container d-flex justify-content-center my-3 align-items-center" style="height: 80px">
       <div class="row">
@@ -109,7 +111,20 @@
       <source src="http://freeuk23.listen2myradio.com:7473/;" type="audio/mpeg" />
     </audio>
 
-
+    <!--  CASTER PLAYER-->
+    <div class="container justify-content-center align-items-center my-4 mb-4" style="width: 420px; height: 200px;">
+      <div class="row">
+        <script type='text/javascript'>
+          var cstrFreePlayerUid = 586147; var cstrFreePlayerTheme = 'blue'; var cstrFreePlayerColor = 'cdd4da';
+        </script>
+        <script type='text/javascript' src='//corscdn.caster.fm/freeplayer/FreePlanPlayerEmbed.js'></script>
+        <!--   DO NOT REMOVE THE LINKS BELOW, THEY  WILL BE HIDDEN (AND WILL HELP US A LOT)   -->
+        <a id='cstrFreePlayerBL1' href='//www.caster.fm/'>Free Shoutcast Hosting</a><a id='cstrFreePlayerBL2'
+          href='//www.caster.fm/'>Radio Stream Hosting</a>
+        <div id='cstrFreePlayerDiv'></div>
+      </div>
+    </div>
+    <!--  CASTER PLAYER-->
   </section>
 
   <footer class="text-center py-3">
